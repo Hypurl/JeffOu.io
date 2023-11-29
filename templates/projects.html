@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Projects{% endblock title %}
+
+{% block content %}
+<div class='bg-gray-800 text-white p-5 md:py-8 md:px-20 lg:px-40 xl:px-60'>
+  <p style="font-family: Poppins-Bold" class='text-4xl font-extrabold py-5 text-center md:text-start'>Projects Completed</p>
+      <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
+          <img class="post-img-url rounded-lg object-cover" width='350px' height='180px' src="https://i.ibb.co/JvkkZz9/Calico.png"  alt="image">
+          <div>
+            <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">Calico<p>
+            <p class='text-justify my-3'>A school-wide online chat app for students to anonymously communicate and vent with specially trained students built with Python Django and Bootstrap. </p>
+            <ul class='mb-3'>
+              <li>&#9989; Coordinated with school counselors and Psychology club to develop and operate the website.</li>
+              <li>&#9989;  Constructed procedures in different situations based on meetings with school counselors and hotline responders</li>
+              <li>&#9989;  Trained a dozen students to be listeners.</li>
+              <li>&#9989;  Promoted with QR codes that connects to the website in student bathroom stalls.</li>
+              <li>&#9989;  Organized and surveyed students for their mental health-related problems and provided feedback.</li>
+            </ul>
+            <span class='text-lg font-bold'>Technologies used</span><br>
+            <div class='flex space-x-2 my-3'>
+            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-python"></i> Python</span>
+            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-html5"></i> HTML</span>
+            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-css3-alt"></i> CSS</span>
+            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-square-js"></i> Js</span>
+            </div>
+            <div class='flex space-x-4 my-3'>
+              <a href='https://github.com/SMIC-ComputerClub/Calico'  target = '_blank' class=''><button class='bg-gray-800 p-2 px-4 rounded-[6px] hover:bg-slate-700 outline hover:outline-none outline-slate-700 transition delay-75 ease-in-out my-3'><i class="bi bi-github"></i> Github</button></a>
+              <a href='https://www.CalicoTalk.com' target = '_blank'><button class='bg-blue-600 p-2 px-4 rounded-[6px] hover:bg-gray-800 hover:outline hover:outline-blue-600 transition delay-75 ease-in-out my-3'>Site (Currently Inactive) <i class="bi bi-box-arrow-up-right"></i></button></a>              
+            </div>
+          </div>
+      </div>
+      <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
+          <img class="post-img-url rounded-lg object-cover" width='350px' height='180px' src="https://i.ibb.co/hXB2Nc2/Screen-Shot-2023-11-26-at-9-37-30-PM.png" alt="image">
+          <div>
+            <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">TEDxSMICSchool</p>
+            <p class='text-justify my-3'>A platform to showcase yearly themes, speaker introductions, and past-year speeches.</p>
+            <ul class='mb-3'>
+              <li>&#9989; Easily updatable blogs interface for club members to post. </li>
+              <li>&#9989; Automatically scrapes the newest TEDx speech videos from SMIC.</li>
+              <li>&#9989; Responsive Design</li>
+            </ul>
+            <span class='text-lg font-bold'>Technologies used</span><br>
+            <div class='flex space-x-2 my-3'>
+            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-html5"></i> HTML</span>
+            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-css3-alt"></i> CSS</span>
+            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-square-js"></i> Js</span>
+            </div>
+            <div class='flex space-x-4 my-3'>
+              <a href='https://archive.ph/2023.03.05-131543/https://tedxsmicschool.com/' target = '_blank'><button class='bg-blue-600 p-2 px-4 rounded-[6px] hover:bg-gray-800 hover:outline hover:outline-blue-600 transition delay-75 ease-in-out my-3'>Archive <i class="bi bi-box-arrow-up-right"></i></button></a>              
+            </div>
+          </div>
+      </div>
+      <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
+          <img class="post-img-url rounded-lg object-cover" width='350px' height='180px' src="https://i.ibb.co/JdFhMhh/logo1.png" alt="image">
+          <div>
+            <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">SharkVolunteers</p>
+            <p class='text-justify my-3'>A WeChat Mini-Program built with Django for teachers to request student volunteer work. Majorly resolved the problem of students being unable to meet their 100-hour community service hour requirements and teachers not having resources to request help when needed. </p>
+            <ul class='mb-3'>
+              <li>&#9989; Responsive interface to see what volunteer work is available (tutor opportunities, straightening classrooms).</li>
+              <li>&#9989; Easy to use and intuitive UI for teachers to request help.</li>
+              <li>&#9989; Automatically logged community service hours linked to Academic Affairs teachers.
+              </li>
+            </ul>
+            <span class='text-lg font-bold'>Technologies used</span><br>
+            <div class='flex space-x-2 my-3'>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-html5"></i> HTML</span>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-square-js"></i> Js</span>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-python"></i> Python</span>
+            </div>
+            <div class='flex space-x-4 my-3'>
+              <a href='/'  target = '_blank' class=''><button class='bg-gray-800 p-2 px-4 rounded-[6px] hover:bg-slate-700 outline hover:outline-none outline-slate-700 transition delay-75 ease-in-out my-3'><i class="bi bi-github"></i> Github</button></a>          
+            </div>
+          </div>
+      </div>
+      <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
+          <img class="post-img-url rounded-lg object-cover" width='350px' height='180px' src="https://i.ibb.co/55jLyGr/booktank.jpg" alt="image">
+          <div>
+            <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">BookTank</p>
+            <p class='text-justify my-3'>A WeChat Mini-Program built with Django for students to buy/trade secondhand textbooks. The program aimed to eliminate the anxiety that students and parents had every year around the need to buy and sell their textbooks.</p>
+            <ul class='mb-3'>
+              <li>&#9989; Up-to-date yearly book lists.</li>
+              <li>&#9989; Real-time online chat for students and parents to coordinate handoffs.</li>
+              <li>&#9989; Responsive picture upload and listing interfaces.</li>
+            </ul>
+            <p class='text-justify my-3'>Achieved over 100 users per day in summer and winter vacations.</p>
+            <span class='text-lg font-bold'>Technologies used</span><br>
+            <div class='flex space-x-2 my-3'>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-python"></i> Python</span>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-html5"></i> HTML</span>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-css3-alt"></i> CSS</span>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-square-js"></i> Js</span>
+            </div>
+            <div class='flex space-x-4 my-3'>
+              <a href='https://github.com/Hypurl/BookTank-front'  target = '_blank' class=''><button class='bg-gray-800 p-2 px-4 rounded-[6px] hover:bg-slate-700 outline hover:outline-none outline-slate-700 transition delay-75 ease-in-out my-3'><i class="bi bi-github"></i> Github</button></a> 
+            </div>
+          </div>
+      </div>
+      <div class='flex justify-center'>
+        <a href='https://github.com/Hypurl' target='_blank' class=''><button class='bg-gray-800 p-2 px-4 rounded-[6px] hover:bg-blue-600 outline hover:outline-none outline-blue-600 transition delay-75 ease-in-out my-3'>Load more <i class="bi bi-arrow-clockwise font-extrabold"></i></button></a>
+      </div>
+</div>
+      {% endblock %}
